@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root CoveredStatements="38" TotalStatements="45" CoveragePercent="84" ReportType="DetailedXml" DotCoverVersion="2024.2.6">
+  <FileIndices>
+    <File Index="1" Name="g:\2024\projekte\pemolib\pemolibtest\properties\assemblyinfo.prg" ChecksumAlgorithm="SHA256" Checksum="C1B70D74195D8ABC2CB7223264F3FF8932E136C9AABE3562FE63F869B9DD80E4" />
+    <File Index="2" Name="G:\2024\Projekte\pemolib\PemolibTest\libmanTests1.prg" ChecksumAlgorithm="SHA256" Checksum="E947D5B84D3F81826F7A34265EDF9DFBB146926AAD28FC67C0976F34D73D3CCF" />
+    <File Index="3" Name="g:\2024\projekte\pemolib\pemolibtest\compilergeneratedcode.prg" ChecksumAlgorithm="SHA1" Checksum="B442B762290B5EE67DCBCED5E4964EF6752ED589" />
+    <File Index="8" Name="G:\2024\Projekte\pemolib\PemoLibman\MediaElement.prg" ChecksumAlgorithm="SHA256" Checksum="D0EDA7F69C0CA4C09858F4FFE279BFD4DD10309391BD11191C2B7DE671C4A387" />
+    <File Index="7" Name="g:\2024\projekte\pemolib\pemolibman\properties\assemblyinfo.prg" ChecksumAlgorithm="SHA256" Checksum="8CDBFB478D39C82B48C85EB2F15DCB27B4968B7996B7A9F9FAE00C764271F76E" />
+    <File Index="6" Name="g:\2024\projekte\pemolib\pemolibman\compilergeneratedcode.prg" ChecksumAlgorithm="SHA1" Checksum="B442B762290B5EE67DCBCED5E4964EF6752ED589" />
+    <File Index="5" Name="G:\2024\Projekte\pemolib\PemoLibman\libmanV1.prg" ChecksumAlgorithm="SHA256" Checksum="FC4801C6EDDE65DC64A24ECF919546D8BEBCEB5FE4CF89BE8B99C2FB7AA7F1DF" />
+    <File Index="4" Name="G:\2024\Projekte\pemolib\PemoLibman\BookElement.prg" ChecksumAlgorithm="SHA256" Checksum="33D1A182404D96C717EC24F46C764ACCAF05784134ADEB4D7F654EC2E435B2B7" />
+  </FileIndices>
+  <Assembly Name="PemoLibmanV1" CoveredStatements="21" TotalStatements="28" CoveragePercent="75">
+    <Namespace Name="PemoLibmanV1" CoveredStatements="21" TotalStatements="28" CoveragePercent="75">
+      <Type Name="BookElement" CoveredStatements="4" TotalStatements="6" CoveragePercent="67">
+        <Method Name=".ctor(System.String):System.Void" CoveredStatements="3" TotalStatements="3" CoveragePercent="100">
+          <Statement FileIndex="4" Line="19" Column="9" EndLine="19" EndColumn="90" Covered="True" />
+          <Statement FileIndex="4" Line="20" Column="13" EndLine="20" EndColumn="23" Covered="True" />
+          <Statement FileIndex="4" Line="21" Column="13" EndLine="21" EndColumn="19" Covered="True" />
+        </Method>
+        <Method Name="get_Authors():System.Collections.Generic.List&lt;System.String&gt;" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+          <Statement FileIndex="4" Line="25" Column="17" EndLine="25" EndColumn="37" Covered="False" />
+        </Method>
+        <Method Name="get_Isbn():System.String" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+          <Statement FileIndex="4" Line="34" Column="17" EndLine="34" EndColumn="34" Covered="True" />
+        </Method>
+        <Method Name="set_Authors(System.Collections.Generic.List&lt;System.String&gt;):System.Void" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+          <Statement FileIndex="4" Line="28" Column="17" EndLine="28" EndColumn="30" Covered="False" />
+        </Method>
+      </Type>
+      <Type Name="LibManager" CoveredStatements="14" TotalStatements="18" CoveragePercent="78">
+        <Type Name="&lt;&gt;c" CoveredStatements="1" TotalStatements="2" CoveragePercent="50">
+          <Method Name="&lt;GetMediaElements&gt;b__6_0(PemoLibmanV1.MediaElement):System.Boolean" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+            <Statement FileIndex="5" Line="70" Column="43" EndLine="70" EndColumn="59" Covered="True" />
+          </Method>
+          <Method Name="&lt;RemoveAllBookElements&gt;b__4_0(PemoLibmanV1.MediaElement):System.Boolean" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+            <Statement FileIndex="5" Line="52" Column="40" EndLine="52" EndColumn="56" Covered="False" />
+          </Method>
+        </Type>
+        <Type Name="&lt;&gt;c__DisplayClass3_0" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+          <Method Name="&lt;RemoveBookElement&gt;b__0(PemoLibmanV1.BookElement):System.Boolean" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+            <Statement FileIndex="5" Line="39" Column="68" EndLine="39" EndColumn="101" Covered="True" />
+          </Method>
+        </Type>
+        <Type Name="&lt;&gt;c__DisplayClass5_0" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+          <Method Name="&lt;GetBookElement&gt;b__0(PemoLibmanV1.BookElement):System.Boolean" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+            <Statement FileIndex="5" Line="61" Column="68" EndLine="61" EndColumn="101" Covered="True" />
+          </Method>
+        </Type>
+        <Method Name=".cctor():System.Void" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+          <Statement FileIndex="5" Line="21" Column="13" EndLine="21" EndColumn="47" Covered="True" />
+        </Method>
+        <Method Name="CreateBookElement(System.String):PemoLibmanV1.BookElement" CoveredStatements="3" TotalStatements="3" CoveragePercent="100">
+          <Statement FileIndex="5" Line="29" Column="17" EndLine="29" EndColumn="45" Covered="True" />
+          <Statement FileIndex="5" Line="30" Column="13" EndLine="30" EndColumn="36" Covered="True" />
+          <Statement FileIndex="5" Line="31" Column="13" EndLine="31" EndColumn="27" Covered="True" />
+        </Method>
+        <Method Name="GetBookElement(System.String):PemoLibmanV1.BookElement" CoveredStatements="2" TotalStatements="2" CoveragePercent="100">
+          <Statement FileIndex="5" Line="61" Column="17" EndLine="61" EndColumn="120" Covered="True" />
+          <Statement FileIndex="5" Line="62" Column="13" EndLine="62" EndColumn="24" Covered="True" />
+        </Method>
+        <Method Name="GetMediaElements(PemoLibmanV1.LibMediaType):System.Collections.Generic.List&lt;PemoLibmanV1.MediaElement&gt;" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+          <Statement FileIndex="5" Line="70" Column="13" EndLine="70" EndColumn="70" Covered="True" />
+        </Method>
+        <Method Name="RemoveAllBookElements():System.Int32" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+          <Statement FileIndex="5" Line="52" Column="13" EndLine="52" EndColumn="58" Covered="False" />
+          <Statement FileIndex="5" Line="53" Column="13" EndLine="53" EndColumn="36" Covered="False" />
+        </Method>
+        <Method Name="RemoveBookElement(System.String):System.Boolean" CoveredStatements="4" TotalStatements="5" CoveragePercent="80">
+          <Statement FileIndex="5" Line="39" Column="17" EndLine="39" EndColumn="120" Covered="True" />
+          <Statement FileIndex="5" Line="40" Column="13" EndLine="40" EndColumn="168" Covered="True" />
+          <Statement FileIndex="5" Line="41" Column="17" EndLine="41" EndColumn="40" Covered="True" />
+          <Statement FileIndex="5" Line="42" Column="17" EndLine="42" EndColumn="28" Covered="True" />
+          <Statement FileIndex="5" Line="44" Column="17" EndLine="44" EndColumn="29" Covered="False" />
+        </Method>
+      </Type>
+      <Type Name="MediaElement" CoveredStatements="3" TotalStatements="4" CoveragePercent="75">
+        <Method Name=".ctor():System.Void" CoveredStatements="3" TotalStatements="3" CoveragePercent="100">
+          <Statement FileIndex="8" Line="19" Column="9" EndLine="19" EndColumn="77" Covered="True" />
+          <Statement FileIndex="8" Line="20" Column="13" EndLine="20" EndColumn="33" Covered="True" />
+          <Statement FileIndex="8" Line="22" Column="10" EndLine="22" EndColumn="16" Covered="True" />
+        </Method>
+        <Method Name="get_id():System.String" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+          <Statement FileIndex="8" Line="15" Column="17" EndLine="15" EndColumn="42" Covered="False" />
+        </Method>
+      </Type>
+    </Namespace>
+  </Assembly>
+  <Assembly Name="PemolibTest" CoveredStatements="17" TotalStatements="17" CoveragePercent="100">
+    <Namespace Name="PemolibTest" CoveredStatements="17" TotalStatements="17" CoveragePercent="100">
+      <Type Name="TestClass" CoveredStatements="17" TotalStatements="17" CoveragePercent="100">
+        <Method Name="CreateBookElement1():System.Void" CoveredStatements="3" TotalStatements="3" CoveragePercent="100">
+          <Statement FileIndex="2" Line="18" Column="11" EndLine="18" EndColumn="56" Covered="True" />
+          <Statement FileIndex="2" Line="19" Column="7" EndLine="19" EndColumn="30" Covered="True" />
+          <Statement FileIndex="2" Line="20" Column="13" EndLine="20" EndColumn="19" Covered="True" />
+        </Method>
+        <Method Name="GetBookCount():System.Void" CoveredStatements="4" TotalStatements="4" CoveragePercent="100">
+          <Statement FileIndex="2" Line="24" Column="17" EndLine="24" EndColumn="62" Covered="True" />
+          <Statement FileIndex="2" Line="25" Column="17" EndLine="25" EndColumn="75" Covered="True" />
+          <Statement FileIndex="2" Line="26" Column="7" EndLine="26" EndColumn="44" Covered="True" />
+          <Statement FileIndex="2" Line="27" Column="13" EndLine="27" EndColumn="19" Covered="True" />
+        </Method>
+        <Method Name="GetSingleBook1():System.Void" CoveredStatements="5" TotalStatements="5" CoveragePercent="100">
+          <Statement FileIndex="2" Line="31" Column="17" EndLine="31" EndColumn="31" Covered="True" />
+          <Statement FileIndex="2" Line="32" Column="17" EndLine="32" EndColumn="60" Covered="True" />
+          <Statement FileIndex="2" Line="33" Column="17" EndLine="33" EndColumn="57" Covered="True" />
+          <Statement FileIndex="2" Line="34" Column="7" EndLine="34" EndColumn="30" Covered="True" />
+          <Statement FileIndex="2" Line="35" Column="13" EndLine="35" EndColumn="19" Covered="True" />
+        </Method>
+        <Method Name="RemoveBook1():System.Void" CoveredStatements="5" TotalStatements="5" CoveragePercent="100">
+          <Statement FileIndex="2" Line="39" Column="17" EndLine="39" EndColumn="62" Covered="True" />
+          <Statement FileIndex="2" Line="40" Column="17" EndLine="40" EndColumn="75" Covered="True" />
+          <Statement FileIndex="2" Line="41" Column="13" EndLine="41" EndColumn="53" Covered="True" />
+          <Statement FileIndex="2" Line="42" Column="7" EndLine="42" EndColumn="44" Covered="True" />
+          <Statement FileIndex="2" Line="43" Column="13" EndLine="43" EndColumn="19" Covered="True" />
+        </Method>
+      </Type>
+    </Namespace>
+  </Assembly>
+</Root>
